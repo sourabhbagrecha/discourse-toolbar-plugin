@@ -8,7 +8,7 @@ function initializePlugin(api) {
       toolbar.addButton({
         id: "kbd_ui_button",
         group: "extras",
-        icon: "far-keyboard",
+        icon: "fa-keyboard",
         perform: e => e.applySurround('<kbd>', '</kbd>', 'Paste button text here.')
       });
     });
