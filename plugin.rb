@@ -1,7 +1,7 @@
-# name: discourse-plugin-spoiler-ui
-# about: Add a button to create a spoiler
+# name: discourse-toolbar-plugin
+# about: Add buttons to perform advanced formatting
 # version: 0.3.0
-# authors: Matthew Wilkin
-# url: https://github.com/cpradio/discourse-plugin-spoiler-ui
+# authors: Sourabh Bagrecha
+# url: https://github.com/sourabhbagrecha/discourse-toolbar-plugin
 
 enabled_site_setting :spoiler_ui_enabled

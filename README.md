@@ -3,13 +3,13 @@
 This plugin adds support for inserting a spoiler into the composer window via a UI.
 
 Composer Window Button  
-![](https://raw.githubusercontent.com/cpradio/discourse-plugin-spoiler-ui/master/screenshot-composer.png)
+![](https://raw.githubusercontent.com/sourabhbagrecha/discourse-toolbar-plugin/master/screenshot-composer.png)
 
 Admin Settings  
-![](https://raw.githubusercontent.com/cpradio/discourse-plugin-spoiler-ui/master/screenshot-admin-settings.png)
+![](https://raw.githubusercontent.com/sourabhbagrecha/discourse-toolbar-plugin/master/screenshot-admin-settings.png)
 
 In Action  
-![](https://raw.githubusercontent.com/cpradio/discourse-plugin-spoiler-ui/master/screenshot-action.gif)
+![](https://raw.githubusercontent.com/sourabhbagrecha/discourse-toolbar-plugin/master/screenshot-action.gif)
 
 ## How to Help
 
@@ -19,7 +19,7 @@ In Action
 
 ## Installation
 
-Follow the directions at [Install a Plugin](https://meta.discourse.org/t/install-a-plugin/19157) using https://github.com/cpradio/discourse-plugin-spoiler-ui.git as the repository URL.
+Follow the directions at [Install a Plugin](https://meta.discourse.org/t/install-a-plugin/19157) using https://github.com/sourabhbagrecha/discourse-toolbar-plugin.git as the repository URL.
 
 ## Authors
 
