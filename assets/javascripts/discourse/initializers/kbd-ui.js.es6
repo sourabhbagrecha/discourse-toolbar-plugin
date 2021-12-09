@@ -11,6 +11,7 @@ function initializePlugin(api) {
         icon: "far-keyboard",
         perform: e => e.applySurround('<kbd>', '</kbd>', 'Paste button text here.')
       });
+      document.querySelector("svg.d-icon-far-keyboard").parentElement.innerText = "Button"
     });
   }
 }
