@@ -8,11 +8,10 @@ function initializePlugin(api) {
       toolbar.addButton({
         id: "kbd_ui_button",
         group: "extras",
-        icon: "kbd",
+        icon: "far-keyboard",
         perform: e => e.applySurround('<kbd>', '</kbd>', 'Paste button text here.')
       });
     });
-    document.querySelector("svg.d-icon-kbd").parentElement.innerText = "Button"
   }
 }
 
