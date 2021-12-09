@@ -5,3 +5,5 @@
 # url: https://github.com/sourabhbagrecha/discourse-toolbar-plugin
 
 enabled_site_setting :spoiler_ui_enabled
+enabled_site_setting :logs_ui_enabled
+enabled_site_setting :kbd_ui_enabled

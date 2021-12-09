@@ -6,10 +6,10 @@ function initializePlugin(api) {
   if (siteSettings.spoiler_ui_enabled) {
     api.onToolbarCreate(toolbar => {
       toolbar.addButton({
-        id: "logs_ui_button",
+        id: "kbd_ui_button",
         group: "extras",
-        icon: "far-file-alt",
-        perform: e => e.applySurround('\n >', '\n', 'Paste your logs here.')
+        icon: "far-keyboard",
+        perform: e => e.applySurround('<kbd>', '</kbd>', 'Paste button text here.')
       });
     });
   }
@@ -17,7 +17,7 @@ function initializePlugin(api) {
 
 export default
   {
-    name: 'logs-ui',
+    name: 'kbd-ui',
     initialize(container) {
       withPluginApi('0.1', api => initializePlugin(api));
     }

@@ -4,4 +4,6 @@ en:
       spoiler_ui_button_title: "Insert Spoiler"
       spoiler_ui_default_text: "spoiler text"
       logs_ui_button_title: "Insert Logs"
-      logs_ui_default_text: "paste logs here"
+      logs_ui_default_text: "paste your logs here"
+      kbd_ui_button_title: "Insert a Button"
+      kbd_ui_default_text: "paste your button text here"
