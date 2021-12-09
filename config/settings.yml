@@ -5,3 +5,6 @@ plugins:
   logs_ui_enabled:
     default: true
     client: true
+  kbd_ui_enabled:
+    default: true
+    client: true
