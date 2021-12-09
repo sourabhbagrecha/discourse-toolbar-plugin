@@ -3,3 +3,5 @@ en:
     composer:
       spoiler_ui_button_title: "Insert Spoiler"
       spoiler_ui_default_text: "spoiler text"
+      logs_ui_button_title: "Insert Logs"
+      logs_ui_default_text: "paste logs here"

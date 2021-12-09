@@ -8,8 +8,8 @@ function initializePlugin(api) {
       toolbar.addButton({
         id: "logs_ui_button",
         group: "extras",
-        icon: "far-eye-slash",
-        perform: e => e.applySurround('\n >', '', 'Paste your logs here.')
+        icon: "far-file-alt",
+        perform: e => e.applySurround('\n >', '}', 'Paste your logs here.')
       });
     });
   }
