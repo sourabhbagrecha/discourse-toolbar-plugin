@@ -8,3 +8,4 @@ enabled_site_setting :spoiler_ui_enabled
 enabled_site_setting :logs_ui_enabled
 enabled_site_setting :kbd_ui_enabled
 enabled_site_setting :strikethrough_ui_enabled
+enabled_site_setting :code_ui_enabled

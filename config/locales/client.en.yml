@@ -9,3 +9,5 @@ en:
       kbd_ui_default_text: "paste your button text here"
       strikethrough_ui_button_title: "Strikethrough"
       strikethrough_ui_default_text: "insert strikethrough text here"
+      code_ui_button_title: "Code"
+      code_ui_default_text: "insert strikethrough text here"
