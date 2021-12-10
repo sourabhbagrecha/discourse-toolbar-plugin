@@ -6,7 +6,7 @@ function initializePlugin(api) {
   if (siteSettings.spoiler_ui_enabled) {
     api.onToolbarCreate(toolbar => {
       toolbar.addButton({
-        id: "code_ui_button",
+        id: "code_block_ui_button",
         group: "extras",
         icon: "code",
         perform: e => e.applySurround('```\n', '\n```', 'Paste your code here.', { multiline: false })
@@ -17,7 +17,7 @@ function initializePlugin(api) {
 
 export default
   {
-    name: 'code-ui',
+    name: 'code-block-ui',
     initialize(container) {
       withPluginApi('0.1', api => initializePlugin(api));
     }

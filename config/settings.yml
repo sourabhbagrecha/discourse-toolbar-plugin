@@ -11,6 +11,6 @@ plugins:
   strikethrough_ui_enabled:
     default: true
     client: true
-  code_ui_enabled:
+  code_block_ui_enabled:
     default: true
     client: true

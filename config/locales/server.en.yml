@@ -4,4 +4,4 @@ en:
     logs_ui_enabled: "Show Insert Logs button on composer window?"
     kbd_ui_enabled: "Show Insert kbd-button button on composer window?"
     strikethrough_ui_enabled: "Show Insert strikethrough button on composer window?"
-    code_ui_enabled: "Show Insert Code button on composer window?"
+    code_block_ui_enabled: "Show Insert Code Block button on composer window?"
