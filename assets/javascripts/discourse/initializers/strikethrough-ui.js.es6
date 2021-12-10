@@ -9,7 +9,7 @@ function initializePlugin(api) {
         id: "strikethrough_ui_button",
         group: "extras",
         icon: "far-clipboard",
-        perform: e => e.applySurround('[s]', '[/s]', 'Paste button text here.', { multiline: true })
+        perform: e => e.applySurround('[s]', '[/s]', 'Paste button text here.', { multiline: false })
       });
     });
   }

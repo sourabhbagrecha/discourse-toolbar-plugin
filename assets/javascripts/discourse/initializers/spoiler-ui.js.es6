@@ -9,7 +9,7 @@ function initializePlugin(api) {
         id: "spoiler_ui_button",
         group: "extras",
         icon: "far-eye-slash",
-        perform: e => e.applySurround('[spoiler]', '[/spoiler]', 'spoiler_ui_default_text', { multiline: true })
+        perform: e => e.applySurround('[spoiler]', '[/spoiler]', 'spoiler_ui_default_text', { multiline: false })
       });
     });
   }
