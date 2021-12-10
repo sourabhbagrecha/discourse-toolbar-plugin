@@ -9,7 +9,7 @@ function initializePlugin(api) {
         id: "logs_ui_button",
         group: "extras",
         icon: "far-file-alt",
-        perform: e => e.applySurround('\n >', '\n', 'Paste your logs here.', { multiline: true })
+        perform: e => e.applySurround('>', ' ', 'Paste your logs here.', { multiline: true })
       });
     });
   }
