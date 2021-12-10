@@ -8,7 +8,7 @@ function initializePlugin(api) {
       toolbar.addButton({
         id: "code_block_ui_button",
         group: "extras",
-        icon: "code",
+        icon: "far-file-code",
         perform: e => e.applySurround('```\n', '\n```', 'Paste your code here.', { multiline: false })
       });
     });
