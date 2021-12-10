@@ -3,3 +3,4 @@ en:
     spoiler_ui_enabled: "Show Insert Spoiler button on composer window?"
     logs_ui_enabled: "Show Insert Logs button on composer window?"
     kbd_ui_enabled: "Show Insert kbd-button button on composer window?"
+    strikethrough_ui_enabled: "Show Insert strikethrough button on composer window?"

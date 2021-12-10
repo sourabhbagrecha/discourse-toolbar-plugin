@@ -7,3 +7,5 @@ en:
       logs_ui_default_text: "paste your logs here"
       kbd_ui_button_title: "Insert a Button"
       kbd_ui_default_text: "paste your button text here"
+      strikethrough_ui_button_title: "Strikethrough"
+      strikethrough_ui_default_text: "insert strikethrough text here"

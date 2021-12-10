@@ -6,10 +6,10 @@ function initializePlugin(api) {
   if (siteSettings.spoiler_ui_enabled) {
     api.onToolbarCreate(toolbar => {
       toolbar.addButton({
-        id: "spoiler_ui_button",
+        id: "strikethrough_ui_button",
         group: "extras",
-        icon: "far-eye-slash",
-        perform: e => e.applySurround('[spoiler]', '[/spoiler]', 'spoiler_ui_default_text', { multiline: true })
+        icon: "far-clipboard",
+        perform: e => e.applySurround('[s]', '[/s]', 'Paste button text here.', { multiline: true })
       });
     });
   }
@@ -17,7 +17,7 @@ function initializePlugin(api) {
 
 export default
   {
-    name: 'spoiler-ui',
+    name: 'strikethrough-ui',
     initialize(container) {
       withPluginApi('0.1', api => initializePlugin(api));
     }

@@ -8,3 +8,6 @@ plugins:
   kbd_ui_enabled:
     default: true
     client: true
+  strikethrough_ui_enabled:
+    default: true
+    client: true
